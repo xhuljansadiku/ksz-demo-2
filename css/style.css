@@ -501,7 +501,26 @@
   }
 
 
+  .b-ang-slide{
+    padding: 5px 5px;
+    background-color: green;
+    width: 280px;
+  }
 
-  .tel{
-   color: red   ;
+  .firmenscuhlungen-slide{
+    padding: 5px 5px;
+    background-color: green;
+    width: 230px;
+  }
+
+  .viona-slide{
+    padding: 5px 5px;
+    background-color: green;
+    width: 255px;
+  }
+
+  .pflege-slide{
+    padding: 5px 5px;
+    background-color: green;
+    width: 340px;
   }
