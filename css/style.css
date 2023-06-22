@@ -525,9 +525,26 @@
     width: 340px;
   }
 
+
+  /* Galeriee */
+
   .gallery img {
     width: 100%;
     height: auto;
     cursor: pointer;
   }
 
+
+  .close-button {
+    font-size: 1.5rem;
+    padding: 8px 12px;
+    line-height: 1;
+    background-color: transparent;
+    border: none;
+    color: rgb(115, 15, 15);
+    opacity: 0.5;
+  }
+
+  .close-button:hover {
+    opacity: 1;
+  }
