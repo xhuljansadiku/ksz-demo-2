@@ -525,6 +525,19 @@
     width: 340px;
   }
 
+  .lkw-slide{
+    padding: 5px 5px;
+    background-color: green;
+    width: 290px;
+  }
+
+  .bew-slide{
+    padding: 5px 5px;
+    background-color: green;
+    width: 250px;
+  }
+
+
 
   /* Galeriee */
 
