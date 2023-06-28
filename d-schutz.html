@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>KSZ Schulungszentrum für Fort- und Weiterbildung in Weiden</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!--Font Awsome Links-->
+    <link href="fontawsome/css/fontawesome.css" rel="stylesheet">
+    <link href="fontawsome/css/brands.css" rel="stylesheet">
+    <link href="fontawsome/css/solid.css" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
+-->
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+
+
+
+
+    <style>
+        .plus-minus {
+          display: inline-block;
+          transition: transform 0.3s ease-in-out;
+        }
+    
+        .collapsed .plus-minus {
+          transform: rotate(45deg);
+        }
+      </style>
+      
+</head>
+
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-success" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
+        <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
+            <h2 class="m-0 text-primary"><img src="./images/logo.jpg" alt="logo" width="75px"></h2>
+        </a>
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto p-4 p-lg-0">
+                <a href="index.html" class="nav-item nav-link">Start</a>
+                <a href="b-angebote.html" class="nav-item nav-link  active">Bildungsangebot</a>
+                <a href="firmenscuhlungen.html" class="nav-item nav-link">Firmenschulungen</a>
+                <a href="viona.html" class="nav-item nav-link">Viona</a>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Mehr</a>
+                    <div class="dropdown-menu fade-down m-0">
+                        <a href="pflege.html" class="dropdown-item">Betreuungskräfte & Pflege</a>
+                        <a href="lkw.html" class="dropdown-item">Lkw, Stapler, Kran & Co</a>
+                        <a href="bewerbungscenter.html" class="dropdown-item">Bewerbungscenter</a>
+                    </div>
+                </div>
+            </div>
+            <a href="contact.html" class="btn btn-success py-4 px-lg-5 d-none d-lg-block">Kontakt<i class="fa fa-arrow-left ms-3"></i></a>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+
+    
+    <!-- About Us Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-5">
+            <h1 class="shadowed mb-2 mt-2">Datenschutzerklärung</h1>
+            <p>Name und Kontakt des Verantwortlichen gemäß Artikel 4 Abs. 7 DSGVO <br><br>
+            Firma: Kaufmännisches Schulungszentrum e. K., Anja Hastaedt <br><br>
+            Anschrift: Dr.-Müller-Straße 22 Industriegebiet Brandweiher, 92637 Weiden <br><br>
+            Telefon: 0961-634950 <br><br>
+            Telefax: 0961-6349550 <br><br>
+           E-Mail:<a href="mailto:anja.hastaedt@ksz-weiden.de"> anja.hastaedt(at)ksz-weiden.de</a></p>
+
+           <div id="accordion">
+            <div class="card">
+              <div class="card-header" id="headingOne">
+                <h5 class="mb-0">
+                  <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    <span class="plus-minus">+</span>
+                    Section 1
+                  </button>
+                </h5>
+              </div>
+      
+              <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+                <div class="card-body">
+                  Content for Section 1
+                </div>
+              </div>
+            </div>
+      
+            <div class="card">
+              <div class="card-header" id="headingTwo">
+                <h5 class="mb-0">
+                  <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    <span class="plus-minus">+</span>
+                    Section 2
+                  </button>
+                </h5>
+              </div>
+      
+              <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                <div class="card-body">
+                  Content for Section 2
+                </div>
+              </div>
+            </div>
+      
+            <!-- Repeat the above card structure for the remaining sections -->
+      
+            <div class="card">
+              <div class="card-header" id="headingSix">
+                <h5 class="mb-0">
+                  <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                    <span class="plus-minus">+</span>
+                    Section 6
+                  </button>
+                </h5>
+              </div>
+      
+              <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion">
+                <div class="card-body">
+                  Content for Section 6
+                </div>
+              </div>
+            </div>
+          </div>
+
+           <!--
+           <div class="accordion" id="accordionPanelsStayOpenExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="accordion-header-1">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-collapse-1" aria-expanded="true" aria-controls="accordion-collapse-1">
+                    Sicherheit und Schutz Ihrer personenbezogenen Daten
+                </button>
+              </h2>
+              <div id="accordion-collapse-1" class="accordion-collapse collapse show" aria-labelledby="accordion-header-1" data-bs-parent="#accordionPanelsStayOpenExample">
+                <div class="accordion-body">
+                    Wir betrachten es als unsere vorrangige Aufgabe,<br> die Vertraulichkeit der von Ihnen bereitgestellten personenbezogenen Daten zu wahren und diese vor unbefugten Zugriffen zu schützen.<br> Deshalb wenden wir äußerste Sorgfalt und modernste Sicherheitsstandards an, um einen maximalen Schutz Ihrer personenbezogenen Daten zu gewährleisten.<br>
+                    Als privatrechtliches Unternehmen unterliegen wir den Bestimmungen der europäischen Datenschutzgrundverordnung (DSGVO) und den Regelungen des Bundesdatenschutzgesetzes (BDSG). <br> Wir haben technische und organisatorische Maßnahmen getroffen, die sicherstellen, dass die Vorschriften über den Datenschutz sowohl von uns,<br> als auch von unseren externen Dienstleistern beachtet werden.
+                </div>
+              </div>
+            </div>
+            
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="accordion-header-2">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-collapse-2" aria-expanded="false" aria-controls="accordion-collapse-2">
+                    Information über die Erhebung personenbezogener Daten
+                </button>
+              </h2>
+              <div id="accordion-collapse-2" class="accordion-collapse collapse" aria-labelledby="accordion-header-2" data-bs-parent="#accordionPanelsStayOpenExample">
+                <div class="accordion-body">
+                    (1) Im Folgenden informieren wir über die Erhebung personenbezogener Daten bei Nutzung unserer Website.<br> Personenbezogene Daten sind z. B. Name, Adresse, E-Mail-Adressen, Nutzerverhalten.<br>
+                    (2) Bei einer Kontaktaufnahme mit uns per E-Mail oder über ein Kontaktformular werden die von Ihnen mitgeteilten Daten <br>(Ihre E-Mail-Adresse, ggf. Ihr Name und Ihre Telefonnummer) von uns gespeichert, um Ihre Fragen zu beantworten.<br> Die in diesem Zusammenhang anfallenden Daten löschen wir, nachdem die Speicherung nicht mehr erforderlich ist,<br> oder die Verarbeitung wird eingeschränkt, falls gesetzliche Aufbewahrungspflichten bestehen.
+                </div>
+              </div>
+            </div>
+        
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="accordion-header-3">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-collapse-3" aria-expanded="false" aria-controls="accordion-collapse-3">
+                    Erhebung personenbezogener Daten bei Besuch unserer Website
+                </button>
+              </h2>
+              <div id="accordion-collapse-3" class="accordion-collapse collapse" aria-labelledby="accordion-header-3" data-bs-parent="#accordionPanelsStayOpenExample">
+                <div class="accordion-body">
+                    Bei der bloß informatorischen Nutzung der Website, also wenn Sie sich nicht registrieren oder uns anderweitig <br>Informationen übermitteln, erheben wir nur die personenbezogenen Daten, die Ihr Browser an unseren Server übermittelt. <br>Wenn Sie unsere Website betrachten möchten, erheben wir die folgenden Daten, die für uns technisch erforderlich sind, <br>um Ihnen unsere Website anzuzeigen und die Stabilität und Sicherheit zu gewährleisten (Rechtsgrundlage ist Art. 6 Abs. 1 S. 1 lit. f DSGVO):<br>
+                    – IP-Adresse<br>
+                    – Datum und Uhrzeit der Anfrage<br>
+                    – Zeitzonendifferenz zur Greenwich Mean Time (GMT)<br>
+                    – Inhalt der Anforderung (konkrete Seite)<br>
+                    – Zugriffsstatus/HTTP-Statuscode<br>
+                    – jeweils übertragene Datenmenge<br>
+                    – Website, von der die Anforderung kommt<br>
+                    – Browser<br>
+                    – Betriebssystem und dessen Oberfläche<br>
+                    – Sprache und Version der Browsersoftware.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="accordion-header-4">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-collapse-4" aria-expanded="false" aria-controls="accordion-collapse-4">
+                    Rechtmäßigkeit der Verarbeitung
+                </button>
+              </h2>
+              <div id="accordion-collapse-4" class="accordion-collapse collapse" aria-labelledby="accordion-header-4" data-bs-parent="#accordionPanelsStayOpenExample">
+                <div class="accordion-body">
+                   
+                    Die Verarbeitung personenbezogener Daten ist nur rechtmäßig, wenn für die Verarbeitung eine Rechtsgrundlage besteht. <br>Rechtsgrundlage für die Verarbeitung können gemäß Artikel 6 Abs. 1 lit. a – f DSGVO insbesondere sein:<br>
+                                a. Die betroffene Person hat ihre Einwilligung zu der Verarbeitung der sie betreffenden personenbezogenen Daten für einen oder mehrere bestimmte Zwecke gegeben;<br>
+                                b. die Verarbeitung ist für die Erfüllung eines Vertrags, dessen Vertragspartei die betroffene Person ist, oder zur Durchführung vorvertraglicher Maßnahmen erforderlich, die auf Anfrage der betroffenen Person erfolgen;<br>
+                                c. die Verarbeitung ist zur Erfüllung einer rechtlichen Verpflichtung erforderlich, der der Verantwortliche unterliegt;<br>
+                                d. die Verarbeitung ist erforderlich, um lebenswichtige Interessen der betroffenen Person oder einer anderen natürlichen Person zu schützen;<br>
+                                e. die Verarbeitung ist für die Wahrnehmung einer Aufgabe erforderlich, die im öffentlichen Interesse liegt oder in Ausübung öffentlicher Gewalt erfolgt, die dem Verantwortlichen übertragen wurde;<br>
+                                f. die Verarbeitung ist zur Wahrung der berechtigten Interessen des Verantwortlichen oder
+                                eines Dritten erforderlich,<br> sofern nicht die Interessen oder Grundrechte und Grundfreiheiten der betroffenen Person, die den Schutz personenbezogener Daten erfordern,<br> überwiegen, insbesondere dann, wenn es sich bei der betroffenen Person um ein Kind handelt.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="accordion-header-5">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-collapse-5" aria-expanded="false" aria-controls="accordion-collapse-5">
+                    Kinder
+                </button>
+              </h2>
+              <div id="accordion-collapse-5" class="accordion-collapse collapse" aria-labelledby="accordion-header-5" data-bs-parent="#accordionPanelsStayOpenExample">
+                <div class="accordion-body">
+                    Unser Angebot richtet sich grundsätzlich an Erwachsene.<br> Personen unter 18 Jahren sollten ohne Zustimmung der Eltern oder Erziehungsberechtigten keine personenbezogenen Daten an uns übermitteln.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="accordion-header-6">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#accordion-collapse-6" aria-expanded="false" aria-controls="accordion-collapse-6">
+                    Rechte der betroffenen Person
+                </button>
+              </h2>
+              <div id="accordion-collapse-6" class="accordion-collapse collapse" aria-labelledby="accordion-header-6" data-bs-parent="#accordionPanelsStayOpenExample">
+                <div class="accordion-body">
+                  <strong>(1) Widerruf der Einwilligung</strong> <br>
+                  Sofern die Verarbeitung der personenbezogenen Daten auf einer erteilten Einwilligung beruht, haben Sie jederzeit das Recht, die Einwilligung zu widerrufen. <br>Durch den Widerruf der Einwilligung wird die Rechtmäßigkeit der aufgrund der Einwilligung bis zum Widerruf erfolgten Verarbeitung nicht berührt.<br>
+                  Für die Ausübung des Widerrufsrechts können Sie sich jederzeit an uns wenden. <br><br>
+                  
+                  <strong>(2) Recht auf Bestätigung</strong> <br>
+                  Sie haben das Recht, von dem Verantwortlichen eine Bestätigung darüber zu verlangen, ob wir sie betreffende personenbezogene Daten verarbeiten.<br> Die Bestätigung können Sie jederzeit unter den oben genannten Kontaktdaten verlangen.<br><br>
+                  
+                  <strong>(3) Auskunftsrecht</strong> <br>
+                  Sofern personenbezogene Daten verarbeitet werden,<br> können Sie jederzeit Auskunft über diese personenbezogenen Daten und über folgenden Informationen verlangen:<br>
+                  a. die Verarbeitungszwecke;<br>
+                  b. den Kategorien personenbezogener Daten, die verarbeitet werden;<br>
+                  c. die Empfänger oder Kategorien von Empfängern, gegenüber denen die personenbezogenen Daten offengelegt worden <br> sind oder noch offengelegt werden, insbesondere bei Empfängern in Drittländern oder bei internationalen Organisationen;<br>
+                  d. falls möglich, die geplante Dauer, für die die personenbezogenen Daten gespeichert werden,<br> oder,falls dies nicht möglich ist, die Kriterien für die Festlegung dieser Dauer;<br>
+                  e. das Bestehen eines Rechts auf Berichtigung oder Löschung der Sie betreffenden personenbezogenen Daten <br> oder auf Einschränkung der Verarbeitung durch den Verantwortlichen oder eines Widerspruchsrechts gegen diese Verarbeitung;<br>
+                  f. das Bestehen eines Beschwerderechts bei einer Aufsichtsbehörde;<br>
+                  g. wenn die personenbezogenen Daten nicht bei der betroffenen Person erhoben werden, alle verfügbaren Informationen über die Herkunft der Daten;<br>
+                  h. das Bestehen einer automatisierten Entscheidungsfindung einschließlich Profiling gemäß Artikel 22 Absätze 1 und 4 <br> DSGVO und – zumindest in diesen Fällen – aussagekräftige Informationen über die involvierte Logik sowie die <br> Tragweite und die angestrebten Auswirkungen einer derartigen Verarbeitung für die betroffene Person.<br>
+                  
+                  Werden personenbezogene Daten an ein Drittland oder an eine internationale Organisation übermittelt,<br> so haben Sie das Recht, über die geeigneten Garantien gemäß Artikel 46 DSGVO im Zusammenhang mit der Übermittlung unterrichtet zu werden.<br> Wir stellen eine Kopie der personenbezogenen Daten, die Gegenstand der Verarbeitung sind, zur Verfügung.<br> Für alle weiteren Kopien, die Sie Person beantragen, können wir ein angemessenes Entgelt auf der Grundlage der Verwaltungskosten verlangen. <br>Stellen Sie den Antrag elektronisch, so sind die Informationen in einem gängigen elektronischen Format zur Verfügung zu stellen, sofern er nichts anderes angibt. <br>Das Recht auf Erhalt einer Kopie gemäß Absatz 3 darf die Rechte und Freiheiten anderer Personen nicht beeinträchtigen.<br><br>
+                  
+                  <strong>(4) Recht auf Berichtigung</strong> <br>
+                  Sie haben das Recht, von uns unverzüglich die Berichtigung Sie betreffender unrichtiger personenbezogener Daten zu verlangen.<br> Unter Berücksichtigung der Zwecke der Verarbeitung haben Sie das Recht,<br> die Vervollständigung unvollständiger personenbezogener Daten – auch mittels einer ergänzenden Erklärung – zu verlangen.<br><br>
+                  
+                 
+                  <strong> (5) Recht auf Löschung („Recht auf vergessen werden“)</strong> <br>
+                  Sie haben das Recht, von dem Verantwortlichen zu verlangen, dass Sie betreffende personenbezogene Daten unverzüglich gelöscht werden,<br> und wir sind verpflichtet, personenbezogene Daten unverzüglich zu löschen, sofern einer der folgenden Gründe zutrifft:<br><br>
+                  a. Die personenbezogenen Daten sind für die Zwecke, für die sie erhoben oder auf sonstige Weise verarbeitet wurden, nicht mehr notwendig.<br>
+                  b. Die betroffene Person widerruft ihre Einwilligung, auf die sich die Verarbeitung gemäß Artikel 6 Absatz 1 Buchstabe a <br> oder Artikel 9 Absatz 2 Buchstabe a DSGVO stützte, und es fehlt an einer anderweitigen Rechtsgrundlage für die Verarbeitung.<br>
+                  c. Die betroffene Person legt gemäß Artikel 21 Absatz 1 DSGVO Widerspruch gegen die Verarbeitung ein <br> und es liegen keine vorrangigen   berechtigten Gründe für die Verarbeitung vor,<br> oder die betroffene Person legt gemäß Artikel 21 Absatz 2 DSGVO Widerspruch gegen die Verarbeitung ein.<br>
+                  d. Die personenbezogenen Daten wurden unrechtmäßig verarbeitet.<br>
+                  e. Die Löschung der personenbezogenen Daten ist zur Erfüllung einer rechtlichen Verpflichtung nach dem Unionsrecht <br> oder dem Recht der Mitgliedstaaten erforderlich, dem der Verantwortliche unterliegt.<br>
+                  f. Die personenbezogenen Daten wurden in Bezug auf angebotene Dienste der Informationsgesellschaft gemäß Artikel 8 Absatz 1 DSGVO erhoben.<br>
+                  
+                  Hat der Verantwortliche die personenbezogenen Daten öffentlich gemacht und ist er gemäß Absatz 1 zu deren Löschung verpflichtet,<br> so trifft er unter Berücksichtigung der verfügbaren Technologie und der Implementierungskosten angemessene Maßnahmen,auch technischer Art,<br> um für die Datenverarbeitung Verantwortliche, die die personenbezogenen Daten verarbeiten, darüber zu informieren,<br> dass eine betroffene Person von ihnen die Löschung aller Links zu diesen personenbezogenen Daten oder von Kopien<br> oder Replikationen dieser personenbezogenen Daten verlangt hat.<br>
+                  Das Recht auf Löschung („Recht auf vergessen werden“) besteht nicht, soweit die Verarbeitung erforderlich ist:<br> <br>
+                  – zur Ausübung des Rechts auf freie Meinungsäußerung und Information;<br>
+                  – zur Erfüllung einer rechtlichen Verpflichtung, die die Verarbeitung nach dem Recht der Union oder der Mitgliedstaaten, <br> dem der Verantwortliche unterliegt, erfordert, oder zur Wahrnehmung einer Aufgabe, <br>die im öffentlichen Interesse liegt oder in Ausübung öffentlicher Gewalt erfolgt, die dem Verantwortlichen übertragen wurde;<br>
+                  – aus Gründen des öffentlichen Interesses im Bereich der öffentlichen Gesundheit gemäß Artikel 9 Absatz 2 Buchstaben h <br> und i sowie Artikel 9 Absatz 3 DSGVO;<br>
+                  – für im öffentlichen Interesse liegende Archivzwecke, wissenschaftliche oder historische Forschungszwecke oder für statistische Zwecke <br> gemäß Artikel 89 Absatz 1 DSGVO, soweit das in Absatz 1 genannte Recht voraussichtlich die Verwirklichung der Ziele dieser Verarbeitung <br> unmöglich macht oder ernsthaft beeinträchtigt, oder <br>
+                  – zur Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen.<br><br>
+                  
+                  
+                  <strong>(6) Recht auf Einschränkung der Verarbeitung</strong> <br>
+                  Sie haben das Recht, von uns die Einschränkung der Verarbeitung ihrer personenbezogenen Daten zu verlangen,<br> wenn eine der folgenden Voraussetzungen gegeben ist:<br><br>
+                  a. die Richtigkeit der personenbezogenen Daten von der betroffenen Person bestritten wird, und zwar für eine Dauer, <br>die es dem Verantwortlichen ermöglicht, die Richtigkeit der personenbezogenen Daten zu überprüfen,<br>
+                  b. die Verarbeitung unrechtmäßig ist und die betroffene Person die Löschung der personenbezogenen Daten ablehnt<br> und stattdessen die Einschränkung der Nutzung der personenbezogenen Daten verlangt;<br>
+                  c. der Verantwortliche die personenbezogenen Daten für die Zwecke der Verarbeitung nicht länger benötigt, <br>die betroffene Person sie jedoch zur Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen benötigt, oder<br>
+                  d. die betroffene Person Widerspruch gegen die Verarbeitung gemäß Artikel 21 Absatz 1 DSGVO eingelegt hat, <br>solange noch nicht feststeht, ob die berechtigten Gründe des Verantwortlichen gegenüber denen der betroffenen Person überwiegen.<br>
+                  
+                  Wurde die Verarbeitung gemäß den oben genannten Voraussetzungen eingeschränkt, so werden diese personenbezogenen <br> Daten – von ihrer Speicherung abgesehen – nur mit Einwilligung der betroffenen Person oder zur Geltendmachung, <br>Ausübung oder Verteidigung von Rechtsansprüchen oder zum Schutz der Rechte einer anderen natürlichen <br>oder juristischen Person oder aus Gründen eines wichtigen öffentlichen Interesses der Union oder eines Mitgliedstaats verarbeitet.<br>
+                  Um das Recht auf Einschränkung der Verarbeitung geltend zu machen,<br> kann sich die betroffene Person jederzeit an uns unter den oben angegebenen Kontaktdaten wenden.<br><br>
+                  
+                  
+                  <strong>(7) Recht auf Datenübertragbarkeit</strong> <br>
+                  Sie haben das Recht, die Sie betreffenden personenbezogenen Daten, die Sie uns bereitgestellt haben,<br> in einem strukturierten, gängigen und maschinenlesbaren Format zu erhalten, und Sie haben das Recht,<br> diese Daten einem anderen Verantwortlichen ohne Behinderung durch den Verantwortlichen,<br> dem die personenbezogenen Daten bereitgestellt wurden, zu übermitteln, sofern:<br><br>
+                  a. die Verarbeitung auf einer Einwilligung gemäß Artikel 6 Absatz 1 Buchstabe a <br>oder Artikel 9 Absatz 2 Buchstabe a oder auf einem Vertrag gemäß Artikel 6 Absatz 1 Buchstabe b DSGVO beruht und<br>
+                  b. die Verarbeitung mithilfe automatisierter Verfahren erfolgt.<br>
+                  
+                  Bei der Ausübung des Rechts auf Datenübertragbarkeit gemäß Absatz 1 haben Sie das Recht,<br> zu erwirken, dass die personenbezogenen Daten direkt von einem Verantwortlichen zu einem anderen Verantwortlichen übermittelt werden, <br>soweit dies technisch machbar ist. <br>Die Ausübung des Rechts auf Datenübertragbarkeit lässt das Recht auf Löschung („Recht auf Vergessen werden“) unberührt.<br> Dieses Recht gilt nicht für eine Verarbeitung, die für die Wahrnehmung einer Aufgabe erforderlich ist,<br> die im öffentlichen Interesse liegt oder in Ausübung öffentlicher Gewalt erfolgt, die dem Verantwortlichen übertragen wurde.<br><br>
+                  
+                  
+                  <strong>(8) Widerspruchsrecht</strong> <br>
+                  Sie haben das Recht, aus Gründen, die sich aus Ihrer besonderen Situation ergeben,<br> jederzeit gegen die Verarbeitung Sie betreffender personenbezogener Daten,<br> die aufgrund von Artikel 6 Absatz 1 Buchstaben e oder f DSGVO erfolgt, Widerspruch einzulegen;<br> dies gilt auch für ein auf diese Bestimmungen gestütztes Profiling. <br>Der Verantwortliche verarbeitet die personenbezogenen Daten nicht mehr, es sei denn, er kann zwingende schutzwürdige Gründe <br> für die Verarbeitung nachweisen, die die Interessen, Rechte und Freiheiten der betroffenen Person überwiegen,<br> oder die Verarbeitung dient der Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen.<br>
+                  Werden personenbezogene Daten verarbeitet, um Direktwerbung zu betreiben, so haben Sie das Recht, <br>jederzeit Widerspruch gegen die Verarbeitung Sie betreffender personenbezogener Daten zum Zwecke derartiger Werbung einzulegen;<br> dies gilt auch für das Profiling, soweit es mit solcher Direktwerbung in Verbindung steht.<br> Widersprechen Sie der Verarbeitung für Zwecke der Direktwerbung, so werden die personenbezogenen Daten nicht mehr für diese Zwecke verarbeitet.<br>
+                  Im Zusammenhang mit der Nutzung von Diensten der Informationsgesellschaft könne Sie ungeachtet der Richtlinie 2002/58/EG <br>Ihr Widerspruchsrecht mittels automatisierter Verfahren ausüben, bei denen technische Spezifikationen verwendet werden.<br>
+                  Sie haben das Recht, aus Gründen, die sich aus Ihrer besonderen Situation ergeben,<br> gegen die Sie betreffende Verarbeitung Sie betreffender personenbezogener Daten,<br> die zu wissenschaftlichen oder historischen Forschungszwecken oder zu statistischen Zwecken gemäß Artikel 89 Absatz 1 erfolgt,<br> Widerspruch einzulegen, es sei denn, die Verarbeitung ist zur Erfüllung einer im öffentlichen Interesse liegenden Aufgabe erforderlich.<br>
+                  Das Widerspruchsrecht können Sie jederzeit ausüben, indem Sie sich an den jeweiligen Verantwortlichen wenden.<br><br>
+                  
+                  
+                  <strong>(9) Automatisierte Entscheidungen im Einzelfall einschließlich Profiling</strong> <br>
+                  Sie haben das Recht, nicht einer ausschließlich auf einer automatisierten Verarbeitung – einschließlich Profiling –<br> beruhenden Entscheidung unterworfen zu werden, die Ihnen gegenüber rechtliche Wirkung entfaltet <br> oder Sie in ähnlicher Weise erheblich beeinträchtigt. <br>Dies gilt nicht, wenn die Entscheidung:<br><br>
+                  a. für den Abschluss oder die Erfüllung eines Vertrags zwischen der betroffenen Person und dem Verantwortlichen erforderlich ist,<br>
+                  b. aufgrund von Rechtsvorschriften der Union oder der Mitgliedstaaten,<br> denen der Verantwortliche unterliegt, zulässig ist und diese Rechtsvorschriften angemessene Maßnahmen zur Wahrung der Rechte <br> und Freiheiten sowie der berechtigten Interessen der betroffenen Person enthalten oder<br>
+                  c. mit ausdrücklicher Einwilligung der betroffenen Person erfolgt.<br><br>
+                  
+                  Der Verantwortliche trifft angemessene Maßnahmen,<br> um die Rechte und Freiheiten sowie die berechtigten Interessen der betroffenen Person zu wahren,<br> wozu mindestens das Recht auf Erwirkung des Eingreifens einer Person seitens des Verantwortlichen,<br> auf Darlegung des eigenen Standpunkts und auf Anfechtung der Entscheidung gehört.<br>
+                  Dieses Recht kann die betroffene Person jederzeit ausüben,indem sie sich an den jeweiligen Verantwortlichen wendet.<br><br>
+                  
+                  
+                  <strong>(10) Recht auf Beschwerde bei einer Aufsichtsbehörde</strong> <br>
+                  Sie haben zudem, unbeschadet eines anderweitigen verwaltungsrechtlichen oder gerichtlichen Rechtsbehelfs,<br> das Recht auf Beschwerde bei einer Aufsichtsbehörde, insbesondere in dem Mitgliedstaat ihres Aufenthaltsorts, <br>ihres Arbeitsplatzes oder des Orts des mutmaßlichen Verstoßes, wenn die betroffene Person der Ansicht ist, <br>dass die Verarbeitung der sie betreffenden personenbezogenen Daten gegen diese Verordnung verstößt.<br><br>
+                  
+                  
+                  <strong>(11) Recht auf wirksamen gerichtlichen Rechtsbehelf</strong> <br>
+                  Sie haben unbeschadet eines verfügbaren verwaltungsrechtlichen oder außergerichtlichen Rechtsbehelfs einschließlich des Rechts<br> auf Beschwerde bei einer Aufsichtsbehörde gemäß Artikel 77 DSGVO das Recht auf einen wirksamen gerichtlichen Rechtsbehelf, <br>wenn sie der Ansicht ist, dass Ihre, aufgrund dieser Verordnung zustehenden Rechte,<br> infolge einer nicht im Einklang mit dieser Verordnung stehenden Verarbeitung Ihrer personenbezogenen Daten verletzt wurden.
+                  
+                  <br><br>
+                  
+                 <h6>Begriffsbestimmungen</h6>
+                  Der Gesetzgeber fordert, dass personenbezogene Daten auf rechtmäßige Weise,<br> nach Treu und Glauben und in einer für die betroffene Person nachvollziehbaren Weise verarbeitet werden<br> („Rechtmäßigkeit, Verarbeitung nach Treu und Glauben, Transparenz“).<br> Um dies zu gewährleisten, informieren wir Sie über die einzelnen gesetzlichen Begriffsbestimmungen, die auch in dieser Datenschutzerklärung verwendet werden:<br><br>
+                  
+                  
+                  <strong>1. Personenbezogene Daten</strong> <br>
+                  „Personenbezogene Daten“ sind alle Informationen, die sich auf eine identifizierte oder identifizierbare natürliche<br> Person (im Folgenden „betroffene Person“) beziehen;<br> als identifizierbar wird eine natürliche Person angesehen,<br> die direkt oder indirekt, insbesondere mittels Zuordnung zu einer Kennung wie einem Namen,<br> zu einer Kennnummer, zu Standortdaten, zu einer Online-Kennung oder zu einem oder mehreren besonderen
+                  Merkmalen identifiziert werden kann,<br> die Ausdruck der physischen, physiologischen, genetischen,  psychischen, wirtschaftlichen,kulturellen  oder sozialen Identität<br> dieser natürlichen Person sind.<br><br>
+                  
+                  
+                  <strong>2. Verarbeitung</strong> <br>
+                  „Verarbeitung“ ist jeder, mit oder ohne Hilfe automatisierter Verfahren, <br>ausgeführter Vorgang oder jede solche Vorgangsreihe im Zusammenhang mit personenbezogenen Daten wie das Erheben, <br>das Erfassen, die Organisation, das Ordnen, die Speicherung, die Anpassung oder Veränderung, das Auslesen, <br>das Abfragen, die Verwendung, die Offenlegung durch Übermittlung, Verbreitung oder eine andere<br> Form der Bereitstellung, den Abgleich oder die Verknüpfung, <br>die Einschränkung, das Löschen oder die Vernichtung.<br><br>
+                  
+                  
+                  <strong>3. Einschränkung der Verarbeitung</strong> <br>
+                  „Einschränkung der Verarbeitung“ ist die Markierung gespeicherter personenbezogener Daten mit dem Ziel, ihre künftige Verarbeitung einzuschränken.<br><br>
+                  
+                  
+                  <strong>4. Profiling</strong> <br>
+                  „Profiling“ ist jede Art der automatisierten Verarbeitung personenbezogener Daten,<br> die darin besteht, dass diese personenbezogenen Daten verwendet werden, um bestimmte persönliche Aspekte,<br> die sich auf eine natürliche Person beziehen, zu bewerten, insbesondere um Aspekte bezüglich Arbeitsleistung,<br> wirtschaftliche Lage, Gesundheit, persönliche Vorlieben, Interessen, Zuverlässigkeit, Verhalten, Aufenthaltsort<br> oder Ortswechsel dieser natürlichen Person zu analysieren oder vorherzusagen.<br><br>
+                  
+                  
+                  <strong>5. Pseudonymisierung</strong> <br>
+                  „Pseudonymisierung“ ist die Verarbeitung personenbezogener Daten in einer Weise, <br>dass die personenbezogenen Daten ohne Hinzuziehung zusätzlicher Informationen nicht mehr einer spezifischen betroffenen Person zugeordnet werden können, <br>sofern diese zusätzlichen Informationen gesondert aufbewahrt werden und technischen und organisatorischen Maßnahmen unterliegen, <br>die gewährleisten, dass die personenbezogenen Daten nicht einer identifizierten oder identifizierbaren natürlichen Person zugewiesen werden können.<br><br>
+                  
+                  
+                  <strong>6. Dateisystem</strong> <br>
+                  „Dateisystem“ ist jede strukturierte Sammlung personenbezogener Daten,<br> die nach bestimmten Kriterien zugänglich sind, unabhängig davon, ob diese Sammlung zentral, dezentral oder nach funktionalen<br> oder geografischen Gesichtspunkten geordnet geführt wird.<br><br>
+                  
+                 
+                  <strong> 7. Verantwortlicher</strong> <br>
+                  „Verantwortlicher“ ist eine natürliche oder juristische Person, Behörde, Einrichtung oder andere Stelle,<br> die allein oder gemeinsam mit anderen über die Zwecke und Mittel der Verarbeitung von personenbezogenen Daten entscheidet; <br>sind die Zwecke und Mittel dieser Verarbeitung durch das Unionsrecht oder das Recht der Mitgliedstaaten vorgegeben,<br> so können der Verantwortliche beziehungsweise die bestimmten Kriterien seiner Benennung nach dem Unionsrecht oder dem Recht <br> der Mitgliedstaaten vorgesehen werden.<br><br>
+                  
+                  
+                  <strong>8. Auftragsverarbeiter</strong> <br>
+                  „Auftragsverarbeiter“ ist eine natürliche oder juristische Person, Behörde, Einrichtung oder andere Stelle,<br> die personenbezogene Daten im Auftrag des Verantwortlichen verarbeitet.<br><br>
+                  
+                  
+                  <strong>9. Empfänger</strong> <br>
+                  „Empfänger“ ist eine natürliche oder juristische Person, Behörde, Einrichtung oder andere Stelle, <br>denen personenbezogene Daten offengelegt werden, unabhängig davon, ob es sich bei ihr um einen Dritten handelt oder nicht. <br>Behörden, die im Rahmen eines bestimmten Untersuchungsauftrags nach dem Unionsrecht oder dem Recht der Mitgliedstaaten <br> möglicherweise personenbezogene Daten erhalten, gelten jedoch nicht als Empfänger; <br>die Verarbeitung dieser Daten durch die genannten Behörden erfolgt im Einklang mit den geltenden Datenschutzvorschriften gemäß<br> den Zwecken der Verarbeitung.<br><br>
+                  
+                 
+                  <strong> 10. Dritter</strong> <br>
+                  „Dritter“ ist eine natürliche oder juristische Person, Behörde, Einrichtung oder andere Stelle, außer der betroffenen Person, <br>dem Verantwortlichen, dem Auftragsverarbeiter und den Personen, die unter der unmittelbaren Verantwortung des Verantwortlichen<br> oder des Auftragsverarbeiters befugt sind, die personenbezogenen Daten zu verarbeiten.<br><br>
+                  
+                  
+                  <strong>11. Einwilligung</strong> <br>
+                  Eine „Einwilligung“ der betroffenen Person ist jede freiwillig für den bestimmten Fall, <br>in informierter Weise und unmissverständlich abgegebene Willensbekundung in Form einer Erklärung <br>oder einer sonstigen eindeutigen bestätigenden Handlung,  mit der die betroffene Person zu verstehen gibt, <br>dass sie mit der Verarbeitung der sie betreffenden personenbezogenen Daten einverstanden ist.
+                </div>
+              </div>
+            </div>
+          </div>
+          -->
+            </div>
+        </div>
+    </div>
+    <!-- About Us End -->
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-3" id="schnell-link">Schnell-Link</h4>
+                    <a class="btn btn-link" href="ksz-schulungz-gallery.html">KSZ Schulungszentrum</a>
+                    <a class="btn btn-link" href="team.html">KSZ Team</a>
+                    <a class="btn btn-link" href="zertifizierungen.html">KSZ Zertifizierungen</a>
+                    <a class="btn btn-link" href="anfahrt.html">Anfahrt</a>
+                    <a class="btn btn-link" href="contact.html">Kontakt</a>
+                </div>
+                <div class="col-lg-3 col-md-6" id="">
+                    <h4 class="text-white mb-3">KSZ Schulungszentrum</h4>
+                    <hr>
+                    <a href="https://goo.gl/maps/2Pj4b4E31SauUYCg9" class="text-white" target="_blank"><p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Dr.-Müller-Straße 22,<br> 92637  Weiden in der Oberpfalz</p></a>
+                    <hr>
+                    <p class="mb-2 text-white"><i class="fa fa-phone-alt me-3"></i>Tel.: 0961-634950</p>
+                    <hr>
+                    <p class="mb-2"><i class="fa fa-thin fa-envelope post me-3"></i><a class="text-white" href="mailto: info@ksz-weiden.de">info@ksz-weiden.de</a></p>
+                     
+                   
+                    
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-3">Besuchen Sie uns auf:</h4>
+                    <div class="d-flex pt-2 mt-2">
+                        <div class="social-icons mt-3">
+                            <a href="https://www.facebook.com/kszweiden" target="_blank">
+                                <img src="./images/facebook-logo.svg" width="40px" alt="">
+                            </a>
+                            <a href="https://www.instagram.com/ksz_weiden_i.d.opf/" target="_blank">
+                                <img src="./images/Instagram-logo.png" width="40px" alt="">
+                            </a>
+                            <a href="https://www.youtube.com/watch?v=p5UhiEmuLE4" target="_blank">
+                                <img src="./images/youtube-logo.jpg" width="40px" alt="">
+                            </a>
+                          </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-white mb-3">Galerie</h4>
+                    <div class="row g-2 pt-2">
+                      <div class="col-4">
+                        <a href="ksz-bildern.html" target="_blank">
+                          <img class="img-fluid bg-light p-1" src="img/course-1.jpg" alt="">
+                        </a>
+                      </div>
+                      <div class="col-4">
+                        <a href="ksz-bildern.html" target="_blank">
+                          <img class="img-fluid bg-light p-1" src="img/course-2.jpg" alt="">
+                        </a>
+                      </div>
+                      <div class="col-4">
+                        <a href="ksz-bildern.html" target="_blank">
+                          <img class="img-fluid bg-light p-1" src="img/course-3.jpg" alt="">
+                        </a>
+                      </div>
+                      <div class="col-4">
+                        <a href="ksz-bildern.html" target="_blank">
+                          <img class="img-fluid bg-light p-1" src="img/course-2.jpg" alt="">
+                        </a>
+                      </div>
+                      <div class="col-4">
+                        <a href="ksz-bildern.html" target="_blank">
+                          <img class="img-fluid bg-light p-1" src="img/course-3.jpg" alt="">
+                        </a>
+                      </div>
+                      <div class="col-4">
+                        <a href="ksz-bildern.html" target="_blank">
+                          <img class="img-fluid bg-light p-1" src="img/course-1.jpg" alt="">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+    
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a class="border-bottom" href="#">KSZ Weiden</a>, All Right Reserved.
+<br>
+                        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                        Code By <a class="border-bottom" href="">Xhuljan Sadiku</a>
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <div class="footer-menu">
+                            <a href="index.html">Start</a>
+                            <a href="d-schutz.html">Datenschutzerklärung</a>
+                            <a href="">Impressum</a>
+                            <a href="contact.html">Kontakt</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-success btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
