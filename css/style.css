@@ -561,3 +561,25 @@
   .close-button:hover {
     opacity: 1;
   }
+
+
+
+
+
+  /*Contact Btn and Back to top color*/
+  #contact{
+    background-color: #28a745;
+  }
+  #contact:hover{
+    background-color: #26873d;
+  }
+
+  #back-to-top{
+    background-color: #28a745;
+  }
+  #back-to-top:hover{
+    background-color: #26873d;
+  }
+
+ 
+ 
