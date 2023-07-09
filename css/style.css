@@ -537,14 +537,14 @@
   .viona-slide{
     padding: 20px 20px;
     background-color: green;
-    width: 365px;
+    width: 400px;
     text-align: center;
   }
 
   .pflege-slide{
     padding: 20px 20px;
     background-color: green;
-    width: 365px;
+    width: 400px;
     text-align: center;
   }
 
@@ -613,10 +613,76 @@
 
 
   @media (max-width: 767px) {
+
+    /*Slide Mobile Edit*/
+ .b-ang-slide{
+    font-size: 16px;
+    width: 100%;
+ }
+ .b-ang-p{
+   width: 300px;
+ }
+
+
+ .firmenscuhlungen-slide{
+    font-size: 16px;
+    width: 100%;
+ }
+
+ .firmenscuhlungen-slide-p{
+    width: 300px;
+  }
+
+
+  .viona-slide{
+    font-size: 16px;
+    width: 100%;
+ }
+
+  .viona-slide-p{
+    width: 300px;
+  }
+
+  .pflege-slide{
+    font-size: 16px;
+    width: 100%;
+ }
+
+  .pflege-slide-p{
+    width: 300px;
+  }
+  
+  .lkw-slide{
+    font-size: 16px;
+    width: 100%;
+ }
+
+  .lkw-slide-p{
+    width: 300px;
+  }
+
+  .bew-slide{
+    font-size: 16px;
+    width: 100%;
+ }
+
+  .bew-slide-p{
+    width: 300px;
+  }
+
+
+
+
+
+
+
+
+  .slideInLeft{
+    padding: 20px 20px;
+    width: 100%;
+ }
+
  
-    # {
-       
-    }
 }
 
 
