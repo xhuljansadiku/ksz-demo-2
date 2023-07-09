@@ -671,15 +671,18 @@
   }
 
 
-
-
-
-
-
-
   .slideInLeft{
     padding: 20px 20px;
     width: 100%;
+ }
+
+ /*Footer Mobile*/
+
+ #footer-mobile{
+    text-align: center;
+ }
+ .footer-ico{
+    margin-left: 110px;
  }
 
  
