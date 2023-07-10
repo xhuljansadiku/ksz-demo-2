@@ -35,31 +35,6 @@
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
     
-
-
-
-    <style>
-       #backToTopBtn {
-  display: none;
-  position: fixed;
-  bottom: 160px;
-  right: 40px; /* Adjust the value to move the button closer to the right */
-  z-index: 99;
-  font-size: 18px;
-  border: none;
-  outline: none;
-  background-color: #28a745;
-  color: #fff;
-  cursor: pointer;
-  padding: 15px;
-  border-radius: 4px;
-}
-
-#backToTopBtn:hover {
-  background-color: #333;
-}
-
-    </style>
 </head>
 
 
@@ -705,15 +680,9 @@
     <!-- Footer End -->
 
 
-    <!-- Back to Top 
-    <a href="#" class="btn btn-lg btn-success btn-lg-square back-to-top" id="back-to-top"><i class="bi bi-arrow-up"></i></a>
--->
+    <!-- Back to Top -->
     <button onclick="scrollToTop()" id="backToTopBtn" title="Go to top"><i class="fa-solid fa-angle-up" style="color: #ffffff;"></i></button>
   
-    <script src="script.js"></script>
-
-
-
 
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
@@ -727,23 +696,7 @@
     <script src="js/main.js"></script>
 
     <!-- Back To Top Javascript -->
-    <script>
-        window.onscroll = function() {scrollFunction()};
-
-function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    document.getElementById("backToTopBtn").style.display = "block";
-  } else {
-    document.getElementById("backToTopBtn").style.display = "none";
-  }
-}
-
-function scrollToTop() {
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
-}
-
-    </script>
+    <script src="js/back-to-top.js"></script>
 </body>
 
 </html>
