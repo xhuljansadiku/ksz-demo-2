@@ -679,13 +679,14 @@
  /*Footer Mobile*/
 
  #footer-mobile{
-    text-align: center;
- }
- .footer-ico{
-    margin-left: 90px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
  }
 
- 
 }
 
 
